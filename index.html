@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="kyban.css">
+    <link rel="stylesheet" href="mobile.css" media="only screen and (max-device-width:480px)"/>
+    <title>  feliz día de San Valentín, Luciana</title>
+    
+  </head>
+  <body  >
+
+    
+
+    <div class="kps" >
+        <a title="KybaN"><img src="pictures/sketch-heart-png-9.png" alt="Ошибка" width="40%" /></a> 
+    
+    </div>
+  </div>
+  <br>  
+
+
+    <style>
+        /* Скрытие текста по умолчанию */
+        .fade-in-text {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+            text-align: center; /* Центрирование текста */
+            padding: 20px;     /* Пространство вокруг блока */
+        }
+
+        /* Активация анимации */
+        .fade-in-text.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+    </style>
+</head>
+<body>
+
+<!-- Пример текста -->
+<div class="fade-in-text" id="text1">
+    
+   <center> <h1>feliz día de San Valentín, Luciana</h1></center>
+   <center> <h4>I hope you like this gift.</h4></center>
+   <audio id="a" hidden src="pictures/adore — did i tell u that i miss u speed (www.lightaudio.ru).mp3"></audio><button onclick="a.paused?a.play():a.pause()">▶❤️Click</button>
+</div>
+  <br><br><br><br>
+<div class="neon-l"></div>
+<br>
+<div class="fade-in-text" id="text">
+    
+   <center> <h2>On September 11, HelloTalk offered me a suitable interlocutor. And it became interesting to me. (I didn't know it would be a beautiful girl from Colombia)</h2></center>
+   <center> <h4> (I didn't know it would be a beautiful girl from Colombia)</h4></center>
+   
+</div>
+<center><a href="https://assets.puzzlefactory.com/puzzle/520/698/original.jpg"  title="KybaN"><img src="pictures/photo_2025-09-21_17-54-55.jpg" alt="Ошибка" width="95%" /></a></center>
+
+<br><br><br>
+<div class="neon-l"></div>
+<br><br>
+
+<table class="iksweb">
+    <tr>
+        <td>
+            <!-- Левый блок с гифкой -->
+            <img src="pictures/video_2025-09-21_18-08-01.gif" alt="GIF" width="70%">
+        </td>
+        <td>
+            <!-- Правый блок с текстом -->
+            <h4>I'm learning more about you every day. And am I more proud or admire</h4>
+        </td>
+    </tr>
+</table>
+
+
+
+<br><br><br>
+<div class="neon-l"></div>
+<br><br>
+
+
+<center><a href="https://d2cbe6qj96hbor.cloudfront.net/puzzles/XBB50154ZY1TANER.jpg"  title="KybaN"><img src="pictures/photo_2025-09-21_18-53-03.jpg" alt="Ошибка" width="80%" /></a></center>
+
+<div class="fade-in-text" id="text">
+    
+   <center> <h2>Eres inteligente, atlética, amable. Lo aprecio mucho ❤️. Eres muy buena, y lo que dices es que no estás segura no estoy de acuerdo con eso. No tengas miedo y tendrás éxito 💕</h2></center>
+   
+</div>
+<br>
+<div class="neon-l"></div>
+<br>
+<div class="fade-in-text" id="text">
+    
+   <center> <h2>This is the least I could do for you,  I believe that our communication will continue until our meeting in Europe, when we will go to universities ;)</h2></center>
+   <center>И я не маньяк jhjhjh</h5></center>
+</div>
+
+
+
+
+
+<center><img src="pictures/0_1203f7_783b2182_orig.png" alt="Ошибка" width="100%" /></a></center>
+<script>
+  
+  document.body.style.backgroundColor = "pink";
+    // Используем IntersectionObserver для отслеживания видимости
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target); // Остановить наблюдение после анимации
+            }
+        });
+    }, { threshold: 0.1 }); // Активировать анимацию, когда 10% элемента видны
+
+    // Наблюдаем за всеми элементами с классом fade-in-text
+    document.querySelectorAll('.fade-in-text').forEach(element => {
+        observer.observe(element);
+    });
+</script>
+
+
+  </body>
+  
+</html>

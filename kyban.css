@@ -1,0 +1,366 @@
+figure {
+    margin: -5% 45% 3.5% 45%; 
+    float: left; /* Выстраиваем элементы по горизонтали */
+    
+    background: #ffffff; 
+    background: #000000; /* Цвет фона */
+    border-radius: 5px; /* Радиус скругления */
+    padding: 3px ; /* Поля */
+    
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(255, 255, 255);
+}
+    figure:first-child {
+    margin-left: 0; /* Убираем отступ для первого элемента */
+}
+
+
+
+.wrapper {
+   
+   
+    margin: 2% 0 0 0; 
+    margin-left: auto;
+    margin-right: auto;
+    
+    background: #816f6f4b; /* Цвет фона */
+    border-radius: 10px; /* Радиус скругления */
+    padding: 0.1px; /* Поля */
+    object-fit: cover;
+    width: 94%;
+    height: 94%;
+    position: relative; /* Для позиционирования текста */
+  
+}
+
+.wrap {
+   
+   
+    margin: 2% 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background: #ffffff4b; /* Цвет фона */
+    border-radius: 10px; /* Радиус скругления */
+    padding: 8px; /* Поля */
+    object-fit: cover;
+    width: 92%;
+    height: 110px;
+    position: relative; /* Для позиционирования текста */
+  
+}
+.wra {
+   
+    margin: 2% 0 0 0;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    background: #ffffff4b; /* Цвет фона */
+    border-radius: 10px; /* Радиус скругления */
+    padding: 8px; /* Поля */
+    object-fit: cover;
+    width: 92%;
+    height: 110px;
+    position: relative; /* Для позиционирования текста */
+  
+}
+.wr {
+   
+    margin: 2% 0 0 0;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    background: #ffffff4b; /* Цвет фона */
+    border-radius: 10px; /* Радиус скругления */
+    padding: 8px; /* Поля */
+    object-fit: cover;
+    width: 92%;
+    height: 110px;
+    position: relative; /* Для позиционирования текста */
+  
+}
+.wu {
+   
+    margin: 2.2% 0 0 0;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    background: #ffffff4b; /* Цвет фона */
+    border-radius: 10px; /* Радиус скругления */
+    padding: 8px; /* Поля */
+    object-fit: cover;
+    width: 92%;
+    height: 110px;
+    position: relative; /* Для позиционирования текста */
+  
+}
+#text-box {
+    position: absolute; /* Позиционирование элемента */
+    
+    width: 100%; /* Ширина текста */
+    color: rgb(255, 255, 255);
+}
+#text-bo {
+    position: absolute; /* Позиционирование элемента */
+    
+    width: 100%; /* Ширина текста */
+    color: rgb(255, 255, 255);
+}
+#text-b {
+    position: absolute; /* Позиционирование элемента */
+    
+    width: 100%; /* Ширина текста */
+    color: rgb(255, 255, 255);
+}
+#tex {
+    position: absolute; /* Позиционирование элемента */
+    
+    width: 100%; /* Ширина текста */
+    color: rgb(255, 255, 255);
+}
+#te {
+    position: absolute; /* Позиционирование элемента */
+    
+    width: 100%; /* Ширина текста */
+    color: rgb(255, 255, 255);
+}
+
+
+* {box-sizing: border-box}
+body {
+font-family: Verdana, sans-serif;
+margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+.slideshow-container {
+max-width: 94%;
+position: relative;
+margin: auto;
+}
+/* Кнопки next & previous*/
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+/* Измените положение "next button" */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+/* Добавьте черный фоновый цвет с небольшой прозрачностью*/
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+/* Подпись под изображением */
+.text {
+color: #ffffff;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+color: #ffffff;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+/* Точки/маркеры/указатели */
+.dot {
+cursor: pointer;
+height: 10px;
+width: 10px;
+margin: 0 2px;
+background-color: #999999;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+background-color: #7bd0ef;
+}
+/* Выцветание анимации */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+
+.blue-text {
+    color: rgb(255, 255, 255);
+ 
+  }
+
+
+.kps { 
+    margin: 2% 0 0 2%;
+}
+
+
+.kpiqw { 
+    
+    float: right;
+        text-align: right;
+}
+
+
+
+
+.wrappe{
+    margin: -5% 45% 3.5% 45%; /* Отступ слева */
+    background: #40463d; /* Цвет фона */
+    color: #ffffff; /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 20px; /* Уголки */
+    text-align: center;
+    
+}
+
+table.iksweb{
+    
+    
+	width: 90%;
+    
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+table.iksweb td,table.iksweb th {
+	padding: 1%;
+	
+}
+.ikswe {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+/* Стили для компьютеров (ширина экрана больше 768px) */
+@media (min-width: 768px) {
+    .ikswe {
+        max-width: 600px; /* Максимальная ширина таблицы на ПК */
+         /* Центрирование таблицы */
+    }
+    
+    .ikswe td {
+        padding: 1%; /* Увеличенные отступы для ПК */
+
+        
+    }
+}
+
+/* Дополнительные стили для содержимого */
+.ikswe a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.ikswe img {
+    max-width: 180px; /* Ограничение ширины изображения */
+    height: auto;
+}
+
+
+
+
+.neon-strip {
+background-color: #17a113;
+box-shadow: 0 0 10px  #19ab14;
+width: 94%;
+height: 3px;
+border-radius: 80%;
+
+margin-left: auto;
+margin-right: auto;
+}
+
+.neon-z {
+    background-color: #251aa6;
+    box-shadow: 0 0 15px  #271bad;
+    width: 94%;
+    height: 3px;
+    border-radius: 80%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .neon-l {
+        background-color: #000000;
+        box-shadow: 0 0 15px  #000000;
+        width: 90%;
+        height: 0.1px;
+        border-radius: 80%;
+        
+        margin-left: auto;
+        margin-right: auto;
+        }
+    .neon-v {
+        background-color: #ffffff;
+        box-shadow: 0 0 15px  #ffffff;
+        width: 94%;
+        height: 3px;
+        border-radius: 80%;
+        
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+    .align-right {
+        float: right;
+        text-align: right;
+    }
+    .align-left {
+        float: left;
+        text-align: left;}
+        
+        .highlight {
+            
+            border-bottom: 4px solid white; /* Полоска под словом */
+            
+            
+            display: inline-block; /* Чтобы черточка была ближе к слову */
+            transition: all 0.5s ease; /* Плавная анимация */
+            margin-bottom: 100%; /* Можно изменить значение для регулировки расстояния */
+            border-radius: 5px;
+            
+        }
+        .clickable {
+            text-decoration: none; /* Убираем подчеркивание у ссылки */
+            color: white; /* Цвет текста ссылки */
+        }
+
+
